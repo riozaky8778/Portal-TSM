@@ -109,39 +109,6 @@
   background: var(--border);
 }
 
-/* ---------- Filter ---------- */
-
-.filter {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  margin-bottom: 32px;
-}
-
-.filter__pill {
-  background: transparent;
-  border: 1px solid var(--border);
-  color: var(--text-secondary);
-  font-size: 13px;
-  font-family: var(--font-body);
-  padding: 7px 16px;
-  border-radius: 100px;
-  cursor: pointer;
-  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
-}
-
-.filter__pill:hover {
-  border-color: var(--border-hover);
-  color: var(--text-primary);
-}
-
-.filter__pill.is-active {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: #06151A;
-  font-weight: 500;
-}
-
 /* ---------- Grid & Card ---------- */
 
 .grid {

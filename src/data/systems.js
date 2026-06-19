@@ -5,16 +5,8 @@
 // - name        : Nama sistem (wajib)
 // - description : Deskripsi singkat, 1 kalimat (wajib)
 // - url         : Link sistem (wajib). Isi "" jika belum live.
-// - category    : Kategori/divisi sistem (wajib) - dipakai untuk filter
+// - category    : Label kategori/divisi sistem, ditampilkan di kartu (wajib)
 // - status      : "online" atau "soon" (wajib)
-
-export const categories = [
-  "Semua",
-  "Operasional",
-  "Inventaris",
-  "Pelanggan",
-  "Tools",
-]
 
 export const systems = [
   {
